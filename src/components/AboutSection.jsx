@@ -82,8 +82,8 @@ export const AboutSection = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/Shubha-resume.pdf';
-    link.download = 'Shubha-resume.pdf';
+    link.href = '/ShubhaPramanik_Resume.pdf';
+    link.download = 'Shubha-Pramanik-Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
